@@ -1,0 +1,209 @@
+body{
+    margin: auto;
+    padding-top: 0px;
+}
+button{
+    background-color: #ff8800;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.menu{
+    background-color: #fff4e7;
+    display: flex;
+    gap: 5px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+}
+.menu > div {
+    flex: 1;
+}
+.logo{
+    font-size: 50px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    float: right;
+}
+.items{
+    /* background-color: #fff4e7; */
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2s0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    text-align: right;
+}
+.first-row{
+    background-color: #fff4e7;
+    padding-bottom: 50px;
+    padding-top: 1px;
+}
+.first-row > div {
+    text-align: center;
+}
+.first-row-first-div{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-row-second-div{
+    color: gray;
+}    
+.banner-section{
+    text-align: center;
+    background-color: #fff4e7;
+    padding-bottom: 20px;            
+}
+.second-row{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+}
+.second-row-first-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    float: right;
+}
+.second-row-second-div{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.second-row > div {
+    flex: 1;
+}
+.features-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+    color: #ff8800;
+}
+.text-color{
+    color: gray;
+}
+.quick-list-text{
+    color: gray;
+    font-size: 4vh;
+    font-weight: 700;
+}
+.of-our-text{
+    color: black;
+    font-size: 4vh;
+    font-weight: 700;
+}
+.third-row{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px; 
+}
+.third-row-first-column{
+    padding-right: 60px;
+}
+.box-shadow{            
+    box-shadow: .5px 1px 3px 2px #f0eded;            
+    border-radius: 8px;
+}
+.box-shadow > h4 {
+    padding: 17px 10px 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-shadow > p {
+    padding: 0px 10px 10px 10px;
+    color: gray;
+}
+.vertical-line{
+    border-left: 6px solid #ff8800;
+    height: 100px;
+}
+.vertical-line > p {
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.responsive-para{
+    padding-top: 0;
+}
+.fourth-row{
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px; 
+    text-align: left;
+}
+.fourth-row > h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifth-row{
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px; 
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 150px;
+}
+.small-box-design{   
+    text-align: center;            
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.small-box-design > h3 { 
+    font-size: 35px;
+}
+.small-box-design > p { 
+    color: gray;
+}
+.sixth-row{
+    padding-bottom: 50px;
+}
+.sixth-row > div {
+    text-align: center;
+}
+.our-sponsores-text{
+    font-size: 30px;
+}
+.seventh-row{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);           
+}
+.seventh-row > img {
+    text-align: center; 
+    filter: grayscale(100%);           
+}
+.footer{
+    padding: 0px 350px 150px 350px;
+    border-radius: 10px;
+}
+.copyright{
+    background-color:antiquewhite;
+    text-align: center;
+    color: gray;
+    padding: 20px 180px 20px 180px;
+}
